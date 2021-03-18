@@ -1,0 +1,130 @@
+/* CSS Document */
+
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+    font: 14px Verdana;
+    margin: 0px 0px 0px 0px;
+    min-width: 960px;
+}
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 70px 0px 0px 0px;
+}
+
+#logo {
+    background: url('obrazky/') no-repeat;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 7px 0px 0px 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 0px 30px;
+    margin: 0px 50px 0px 0px;
+    font-size: 20px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    line-height: 2.7em;
+    background: rgb(60, 255, 0);
+    box-shadow: 0px 0px 50px rgb(60, 255, 0);
+}
+
+nav ul li:hover,
+.aktivni {
+    background: rgb(0, 238, 255);
+    box-shadow: 0px 0px 50px rgb(0, 238, 255);
+}
+
+footer {
+    height: 5px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin: 15px 0 0 10px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: Verdana;
+    font size: 14px;
+}
+
+h1 {
+    font: 1.8em Tabona;
+    font-weight: bold;
+    color: rgb(60, 255, 0);
+    text-shadow: 0px 0px 30px #20ff20;
+    text-align: center;
+}
+
+article {
+    background: #000000;
+    padding: 30px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+#centr {
+    margin: 0px auto;
+}
+
+article header {
+    width: 250px;
+    float: left;
+    position: static;
+}
+
+article section {
+    width: 1200px;
+    float: left;
+    background: white;
+    border: 6px solid #20ff20;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px #20ff20;
+    padding: 20px 50px;
+    margin: 30px 0px 200px 0px;
+}
+
+.cistic {
+    clear: both;
+}
+
+#dovednosti td {
+    width: 33%;
+    padding: 20px;
+    border: 1px solid gray;
+    vertical-align: top;
+}
+
+#dovednosti {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+#domu {
+    text-align: left;
+}
+
+
+}
+.vlevo {
+    float: left;
+}
